@@ -1,6 +1,6 @@
 package librarymanager.facade;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 public interface IBook {
 	
@@ -10,7 +10,7 @@ public interface IBook {
 	
 	public String getDescription();
 	
-	public LocalDateTime getDate();
+	public LocalDate getDate();
 	
 	public Float getPrice();
 }

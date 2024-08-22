@@ -1,6 +1,7 @@
 package librarymanager.facade;
 
 import java.util.List;
+ 
 
 public interface IMember {
 	
@@ -10,7 +11,7 @@ public interface IMember {
 	
 	public List<IBook> getRentedBooks();
 	
-	public Boolean addBookToRented();
+	public Boolean addBookToRented(IBook book);
 	
-	public Boolean removeBookFromRented();
+	public Boolean removeBookFromRented(IBook book);
 }
