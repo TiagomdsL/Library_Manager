@@ -12,5 +12,10 @@ public interface IBook {
 	
 	public LocalDate getDate();
 	
-	public Float getPrice();
+	public double getPrice();
+	
+	public boolean matches(String regex);
+	
+	 @Override
+	String toString();
 }
